@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": "4a4b9f8e-919e-4f80-a7fa-2f7303157576",
+      "name": "Chutney de Mango",
+      "description": "Chutney de mango y cebolla",
+      "price": 12500,
+      "stock": 10,
+      "createAt": "2026-08-03T23:18:59.480Z",
+      "category": "conservas"
+    },
+    {
+      "id": "5a3c8a47-37e4-4533-b854-2e146da2af84",
+      "name": "Conserva de Zanahorias",
+      "description": "Conserva de zanahorias, pera y manzanan",
+      "price": 10000,
+      "stock": 25,
+      "createAt": "2026-08-03T23:26:39.024Z",
+      "category": "conservas"
+    },
+    {
+      "id": "4c6803d3-9de8-43a7-9394-978f74eb535d",
+      "name": "Confitura de olivas",
+      "description": "Confitura de olivas al Malbec",
+      "price": 12000,
+      "stock": 35,
+      "createAt": "2026-08-03T23:27:28.789Z",
+      "category": "conservas"
+    },
+    {
+      "id": "a8194101-bd16-4bec-bc30-972771ab99b4",
+      "name": "Escabeche de Berenjenas",
+      "description": "Escabeche de berenjenas y apio",
+      "price": 10000,
+      "stock": 15,
+      "createAt": "2026-08-03T23:27:57.323Z",
+      "category": "conservas"
+    },
+    {
+      "id": "d581f007-3aae-4ffc-8c49-44cc3d9981f1",
+      "name": "Focaccia de Romero",
+      "description": "Panificación artesanal con romero",
+      "category": "panificacion",
+      "price": 8500,
+      "stock": 20,
+      "createAt": "2026-08-04T12:00:00.000Z"
+    },
+    {
+      "id": "8b0412ea-a5d3-420f-a234-9b263e9d5a03",
+      "name": "Queso de Cabra",
+      "description": "Queso de cabra semi curado",
+      "category": "quesos",
+      "price": 14500,
+      "stock": 12,
+      "createAt": "2026-08-04T12:05:00.000Z"
+    },
+    {
+      "id": "bfa2d512-4695-4f40-8c5a-2e0de9485dc4",
+      "name": "Salame Artesanal",
+      "description": "Fiambre curado con pimienta negra",
+      "category": "fiambres",
+      "price": 17000,
+      "stock": 18,
+      "createAt": "2026-08-04T12:10:00.000Z"
+    },
+    {
+      "id": "9a6d5070-1a92-4b91-a5a3-0785ad3c12be",
+      "name": "Pan de campo",
+      "description": "Hogaza de pan de campo",
+      "price": 6500,
+      "stock": 5,
+      "createAt": "2026-08-04T15:40:17.401Z",
+      "category": "panificacion"
+    },
+    {
+      "id": "9518095f-cba6-4c43-bb44-9d1c5c36ee9f",
+      "name": "Pan de Masa Madre",
+      "description": "Pan artesanal 100% elaborado con masa madre",
+      "price": 8500,
+      "stock": 3,
+      "createAt": "2026-08-06T13:12:08.389Z",
+      "category": "panificacion"
+    },
+    {
+      "id": "2bbcce48-460f-4b3f-a5e8-b9fbe01ed256",
+      "name": "Queso Azul",
+      "description": "Queso azul origen argentino. Venta por kilo",
+      "price": 13000,
+      "stock": 4,
+      "createAt": "2026-08-06T13:12:59.443Z",
+      "category": "quesos"
+    },
+    {
+      "id": "7e75c2a0-11ce-4f31-9dd5-d52b4d9661c3",
+      "name": "Quesito Test",
+      "description": "Queso small",
+      "price": 12000,
+      "stock": 6,
+      "createAt": "2026-08-06T13:23:14.357Z"
+    },
+    {
+      "id": "e308a719-f19d-4498-a68e-8608a6e579de",
+      "name": "Pan Nuevo",
+      "description": "Prueba pan",
+      "category": "panificacion",
+      "price": 6000,
+      "stock": 7,
+      "createAt": "2026-08-06T13:31:15.242Z"
+    },
+    {
+      "id": "4b8f8248-afb0-4a84-be48-a831191dae7e",
+      "name": "Jamon Iberico",
+      "description": "Jamon Iberico Campo Austral por Kg",
+      "category": "fiambres",
+      "price": 25000,
+      "stock": 5,
+      "createAt": "2026-08-06T15:12:26.872Z"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Agregar Producto - Sapori di Casa</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="../index.html">
+        <img id="logo" src="../logo.PNG" alt="Logo de Sapori di Casa" />
+      </a>
+      <div class="botones">
+        <a href="../index.html">
+          <button id="volver">Volver al inicio</button>
+        </a>
+      </div>
+    </nav>
+
+    <main class="contenedor-principal">
+      <form id="formulario">
+        <h2>Agregar producto</h2>
+        <div class="contenedor-input">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" placeholder="Nombre del producto" required />
+        </div>
+        <div class="contenedor-input">
+          <label for="description">Descripción</label>
+          <input type="text" id="description" placeholder="Descripción" required />
+        </div>
+        <div class="contenedor-input">
+          <label for="category">Categoría</label>
+          <select id="category" required>
+            <option value="">Selecciona una categoría</option>
+            <option value="panificacion">Panificación</option>
+            <option value="conservas">Conservas</option>
+            <option value="quesos">Quesos</option>
+            <option value="fiambres">Fiambres</option>
+          </select>
+        </div>
+        <div class="contenedor-input">
+          <label for="price">Precio</label>
+          <input type="number" id="price" min="0" placeholder="Precio" required />
+        </div>
+        <div class="contenedor-input">
+          <label for="stock">Stock</label>
+          <input type="number" id="stock" min="0" placeholder="Cantidad en stock" required />
+        </div>
+        <button type="submit">Guardar producto</button>
+      </form>
+    </main>
+
+    <script src="./agregar-producto.js"></script>
+  </body>
+</html>

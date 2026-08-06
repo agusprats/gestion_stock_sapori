@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "5678f5d7-c1ec-4534-833c-ed203a076ac2",
+      "email": "hola@gmail.com",
+      "password": "$2a$10$IGgfgeUwA0ktcnGz.XW0A.PDJC/dijjVnzAef7RN4uENtJmkHIpwm",
+      "createAt": "2026-08-03T14:51:13.972Z"
+    },
+    {
+      "id": "846d8d8c-eb5b-48d2-96fb-8a49c4dcc9b3",
+      "email": "hola4@mymail.com",
+      "password": "$2a$10$DHR8QV69DGw5MQoihbxjzemwU7zVnnOnEa.JV9ZiTmmrwqLJN/jqq",
+      "createAt": "2026-08-03T20:23:18.008Z"
+    },
+    {
+      "id": "f66338b8-9150-4661-b3b1-126dbd1252d2",
+      "email": "hola3@gmail.com",
+      "password": "$2a$10$d7TO9RLmuuSKPUm9jIJJpO5B5TLoA386kmkzK8QfvBKT4y1I7YtCS",
+      "createAt": "2026-08-03T20:31:04.480Z"
+    },
+    {
+      "id": "0ebc1758-0ae2-4f69-93e6-bc581d39dafd",
+      "email": "JohnyBeGood@hola.com",
+      "password": "$2a$10$OUfjeFPjV.Wu5Q0S6CcOI.Xxx/fLCRRCuu2/yIKbCamTyID0.F8ge",
+      "createAt": "2026-08-04T13:27:24.013Z"
+    },
+    {
+      "id": "27598598-2889-48a9-84b4-e9bf04851eeb",
+      "email": "test@example.com",
+      "password": "$2a$10$SyQVQhIMNk0k.cB2UGwtBewzD.EVdpKNJXAje5mX9s0087tnPta2u",
+      "createAt": "2026-08-04T14:54:24.500Z"
+    },
+    {
+      "id": "0aa8486d-1ec4-4bfb-9d53-9248ac24c339",
+      "email": "agusprats@hmail.com",
+      "password": "$2a$10$VCch4Oj9JHNMxQRKXAs9iek8uwirBRW0JR4pLessQRe3doXQ.xl4q",
+      "createAt": "2026-08-04T14:58:02.969Z"
+    },
+    {
+      "id": "a8cb56d3-214c-4192-923d-25e5aa00d5de",
+      "email": "autotest@example.com",
+      "password": "$2a$10$nicLeNYyn6uMh4XaZaAL5uetG2ktpsd9ZdToCLmrdlGkxzwvxzNpO",
+      "createAt": "2026-08-06T13:22:46.537Z"
+    },
+    {
+      "id": "237219d3-8145-4fea-a050-c0fa33d2e7ff",
+      "email": "prueba@prueba.com",
+      "password": "$2a$10$cdOqkWnaavQTgsNsXT/M6Orvbsj5Wkw5A0Q7Alw74rMTIWIRU2Vje",
+      "createAt": "2026-08-06T14:49:43.564Z"
+    },
+    {
+      "id": "5271c3a5-2bc4-4bb2-ba61-762577e47344",
+      "email": "afercastro@gmail.com",
+      "password": "$2a$10$uM6GgXHR9UmTDFKkw93iQeo025OIzKgc8ZcGhPgaJztPzu.K.61ru",
+      "createAt": "2026-08-06T14:53:30.867Z"
+    }
+  ]
+}

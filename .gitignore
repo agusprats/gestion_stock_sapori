@@ -1,0 +1,9 @@
+# Ignorar variables de entorno y dependencias de backend
+backend/.env
+backend/node_modules
+
+# Ignorar logs
+*.log
+
+# Ignorar archivos de sistema
+.DS_Store

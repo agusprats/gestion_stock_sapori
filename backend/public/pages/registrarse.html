@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Registrarse - Sapori di Casa</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="../index.html">
+        <img id="logo" src="../logo.PNG" alt="Logo de Sapori di Casa" />
+      </a>
+      <div class="botones">
+        <a href="./iniciar-sesion.html">
+          <button id="iniciar-sesion">Iniciar Sesión</button>
+        </a>
+      </div>
+    </nav>
+
+    <main class="contenedor-principal">
+      <form id="formulario">
+        <h2>Crear cuenta</h2>
+        <div class="contenedor-input">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Ingresa tu email" required />
+        </div>
+        <div class="contenedor-input">
+          <label for="password">Contraseña</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Mínimo 6 caracteres"
+            required
+          />
+        </div>
+        <button type="submit">Registrarse</button>
+      </form>
+    </main>
+
+    <script src="./registrarse.js"></script>
+  </body>
+</html>
