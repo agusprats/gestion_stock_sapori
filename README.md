@@ -49,7 +49,7 @@ npm install
 3. Crear el archivo `.env` con contenido como:
 
 ```env
-PORT=3000
+PORT=3001
 JWT_SECRET=tu_secreto_aqui
 ```
 
@@ -62,11 +62,34 @@ npm start
 5. Abrir el navegador en:
 
 ```
-http://localhost:3000
+http://localhost:3001
 ```
 
 ## Notas
 
 - El frontend ya no se sirve desde la carpeta `frontend/`; ahora el app estática vive en `backend/public/`.
 - El archivo `.env` debe agregarse a `.gitignore` para no versionar secretos.
-- Si `3000` está ocupado, cambiar `PORT` en `.env` o detener el proceso que usa ese puerto.
+- Si `3001` está ocupado, cambiar `PORT` en `.env` o detener el proceso que usa ese puerto.
+
+## Despliegue
+
+Pasos rápidos para publicar la app:
+
+- Vercel (frontend estático):
+  1. En tu cuenta de Vercel, crear un nuevo proyecto y conectar el repositorio `gestion_stock_sapori`.
+  2. En las opciones del proyecto, usar la **root** del repo como origen y asegurarte de que los archivos estáticos se sirvan desde `backend/public`. Si Vercel no detecta automáticamente la carpeta, configura el `Framework Preset` en `Other` y añade `vercel.json` (ya incluido en el repo).
+  3. Desplegar — Vercel servirá la SPA desde `backend/public`.
+
+- Render (backend API):
+  1. Entra a Render y crea un nuevo **Web Service** conectado al repo `gestion_stock_sapori` y la rama `main`.
+  2. En `Build Command` pon: `cd backend && npm install`.
+  3. En `Start Command` pon: `cd backend && npm start`.
+  4. Añade las variables de entorno en la sección **Environment**:
+     - `JWT_SECRET` = (tu secreto JWT)
+     - `PORT` no es necesario normalmente; Render asigna `PORT` automáticamente, pero puedes definirla si lo deseas.
+  5. Desplegar — Render construirá e iniciará el servicio Node desde `backend`.
+
+Notas de seguridad:
+- No subas tu `.env`. El repo ya ignora `backend/.env`.
+- Usa los secretos/variables de entorno del panel de Render y Vercel en lugar de commit.
+
