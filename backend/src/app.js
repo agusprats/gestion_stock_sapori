@@ -10,19 +10,16 @@ const { errorHandler } = require("./middlewares/error.middleware");
 
 const app = express();
 
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || "http://localhost:3000,http://127.0.0.1:3000,http://localhost:3001,http://127.0.0.1:3001,https://gestion-stock-sapori-frontend.vercel.app").split(",");
 const corsOptions = {
   origin: (origin, callback) => {
-    if (
-      !origin ||
-      origin === "null" ||
-      origin.startsWith("http://localhost") ||
-      origin.startsWith("http://127.0.0.1")
-    ) {
+    if (!origin || origin === "null" || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
       callback(new Error("CORS policy: origin not allowed"));
     }
   },
+  credentials: true,
 };
 
 app.use(cors(corsOptions));
