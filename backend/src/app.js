@@ -10,7 +10,7 @@ const { errorHandler } = require("./middlewares/error.middleware");
 
 const app = express();
 
-const allowedOrigins = (process.env.ALLOWED_ORIGINS || "http://localhost:3000,http://127.0.0.1:3000,http://localhost:3001,http://127.0.0.1:3001,https://gestion-stock-sapori-frontend.vercel.app").split(",");
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || "http://localhost:3000,http://127.0.0.1:3000,http://localhost:3001,http://127.0.0.1:3001,https://gestion-stock-sapori-frontend.vercel.app,https://sapori-gestion-stock.onrender.com").split(",");
 const corsOptions = {
   origin: (origin, callback) => {
     if (!origin || origin === "null" || allowedOrigins.includes(origin)) {
